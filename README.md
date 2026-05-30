@@ -13,9 +13,9 @@ Website ini adalah proyek portofolio dan jurnal digital personal yang mendokumen
 Website ini dirancang secara matang dengan menerapkan prinsip-prinsip utama antarmuka pengguna:
 
 ### 1. Target Pengguna (Target Audience)
-- Dosen dan Asisten Praktikum mata kuliah Desain Antarmuka Pengguna.
+- Dosen mata kuliah Desain Antarmuka Pengguna.
 - Rekruter/Praktisi industri di bidang Data Science/Analytics.
-- Rekan sesama mahasiswa yang mencari referensi jurnal belajar.
+- Rekan sesama mahasiswa.
 
 ### 2. Konsistensi Desain (Consistency)
 - **Warna:** Menggunakan palet warna bertema alam/sage yang menenangkan (Sage Green `#A7B194`, Off-White `#FBFBF9`, dan Dark Slate `#2D3129`) untuk menciptakan kesan jurnal/scrapbook digital yang estetik dan profesional.
