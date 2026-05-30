@@ -67,32 +67,34 @@
                         <img src="pict/gambar1.jpg" alt="Foto Profil Saya" class="hero-img">
                     </div>
 
-                    <div class="floating-card card-chart-top animate-float">
-                        <div class="card-header-mini">
-                            <span>Mini Dashboard</span>
-                            <span class="dot-green"></span>
+                    <div class="hero-widgets-container">
+                        <div class="floating-card card-chart-top animate-float">
+                            <div class="card-header-mini">
+                                <span>Mini Dashboard</span>
+                                <span class="dot-green"></span>
+                            </div>
+                            <div class="mini-chart-vector">
+                                <svg viewBox="0 0 100 40" class="svg-chart">
+                                    <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2" fill="none" stroke="#A7B194" stroke-width="2"/>
+                                    <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2 L100,40 L0,40 Z" fill="rgba(167, 177, 148, 0.1)"/>
+                                </svg>
+                            </div>
                         </div>
-                        <div class="mini-chart-vector">
-                            <svg viewBox="0 0 100 40" class="svg-chart">
-                                <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2" fill="none" stroke="#A7B194" stroke-width="2"/>
-                                <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2 L100,40 L0,40 Z" fill="rgba(167, 177, 148, 0.1)"/>
-                            </svg>
-                        </div>
-                    </div>
 
-                    <div class="floating-card card-stats-bottom animate-float-delayed">
-                        <div class="card-header-mini">
-                            <span>Metrik Belajar Sem. 2</span>
+                        <div class="floating-card card-stats-bottom animate-float-delayed">
+                            <div class="card-header-mini">
+                                <span>Metrik Belajar Sem. 2</span>
+                            </div>
+                            <div class="mini-table">
+                                <div class="table-row"><span>Logika Pemrograman</span><span class="bar-fill" style="width: 85%;"></span></div>
+                                <div class="table-row"><span>Query & Basis Data</span><span class="bar-fill" style="width: 75%;"></span></div>
+                            </div>
                         </div>
-                        <div class="mini-table">
-                            <div class="table-row"><span>Logika Pemrograman</span><span class="bar-fill" style="width: 85%;"></span></div>
-                            <div class="table-row"><span>Query & Basis Data</span><span class="bar-fill" style="width: 75%;"></span></div>
-                        </div>
-                    </div>
 
-                    <div class="floating-card card-translucent animate-float">
-                        <span class="num-highlight">90%</span>
-                        <span class="num-label">Progres Target</span>
+                        <div class="floating-card card-translucent animate-float">
+                            <span class="num-highlight">90%</span>
+                            <span class="num-label">Progres Target</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,7 +119,7 @@
                     </div>
 
                     <div class="sticky-note">
-                        <p>Memasuki dunia perkuliahan, beradaptasi dengan lingkungan baru, dan perlahan menemukan ketertarikan mendalam pada struktur data dan visualisasi.</p>
+                        <p>Memasuki dunia perkuliahan, beradaptasi dengan lingkungan baru, and perlahan menemukan ketertarikan mendalam pada struktur data dan visualisasi.</p>
                         <div class="sticky-pin"></div>
                     </div>
                 </div>
@@ -138,6 +140,7 @@
                         <p>
                             Website ini berfungsi sebagai jurnal digital sekaligus ruang belajar mandiri saya. Di sini, saya mendokumentasikan setiap proses saya dan proyek-projek data sederhana yang saya bangun secara konsisten untuk terus berkembang setiap harinya.
                         </p>                        
+                        
                         <div class="doodle-arrow">
                             <svg width="60" height="40" viewBox="0 0 60 40" fill="none">
                                 <path d="M5,5 C25,5 35,35 50,25 M50,25 L42,22 M50,25 L47,33" stroke="#A7B194" stroke-width="2" stroke-linecap="round" fill="none"/>
@@ -210,7 +213,7 @@
                     <div class="timeline-card core-card">
                         <div class="card-tag tag-current">SAAT INI</div>
                         <h3>Fokus UAS & Projek Akhir</h3>
-                        <p>Saat ini saya sedang mengerahkan fokus penuh untuk mempersiapkan Ujian Akhir Semester (UAS) serta menyelesaikan berbagai tugas besar kelompok (Projek Akhir). Di samping akademik, saya juga aktif berkontribusi dalam divisi kepanitiaan kampus guna mematangkan skill manajemen waktu, komunikasi, dan kerja sama tim secara real.</p>
+                        <p class="timeline-text-full">Saat ini saya sedang mengerahkan fokus penuh untuk mempersiapkan Ujian Akhir Semester (UAS) serta menyelesaikan berbagai tugas besar kelompok (Projek Akhir). Di samping akademik, saya juga aktif berkontribusi dalam divisi kepanitiaan kampus guna mematangkan skill manajemen waktu, komunikasi, dan kerja sama tim secara real.</p>
                     </div>
                 </div>
             </div>
@@ -351,7 +354,7 @@
                     </div>
                 </div>
 
-                                <div class="skills-visual-widget">
+                <div class="skills-visual-widget">
                     <div class="dashboard-widget-wrapper">
                         <div class="widget-top-bar">
                             <span class="dot"></span><span class="dot"></span><span class="dot"></span>
@@ -412,7 +415,7 @@
             </div>
         </section>
 
-        <section id="gallery" class="gallery-section" style="margin-top: 100px;">
+        <section id="gallery" class="gallery-section" style="margin-top: 100px; padding-bottom: 60px;">
             <div class="gallery-intro">
                 <h2>Galeri Memori & Suasana</h2>
                 <p class="section-subtitle">Kumpulan cuplikan momen keseharian kuliah yang penuh cerita estetik.</p>
@@ -436,16 +439,20 @@
                     <div class="polaroid-txt">Bermain bersama teman Filkom</div>
                 </div>
             </div>
+            
+            <div style="clear: both;"></div>
         </section>
 
         <footer class="main-footer">
-            <p class="footer-thanks">Terima kasih telah berkunjung ke jurnal belajarku.</p>
-            <div class="footer-socials">
-                <a href="https://github.com/GladiesGeraldine" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:gladiesgeraldin@student.ub.ac.id"><i class="far fa-envelope"></i></a>
-                <a href="https://linkedin.com/in/gladies-napitupulu-6317b6372" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <div class="footer-content-wrapper">
+                <p class="footer-thanks">Terima kasih telah berkunjung ke jurnal belajarku.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/GladiesGeraldine" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:gladiesgeraldin@student.ub.ac.id"><i class="far fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/gladies-napitupulu-6317b6372" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2026 Perjalanan Belajar Pribadi. Dibuat dengan sepenuh hati.</p>
             </div>
-            <p class="footer-copyright">&copy; 2026 Perjalanan Belajar Pribadi. Dibuat dengan sepenuh hati.</p>
         </footer>
 
     </main>
