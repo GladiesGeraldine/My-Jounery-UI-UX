@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Mengaplikasikan font baru yang lebih estetik ke elemen utama website */
+        /* Font styling khusus */
         body, p, .nav-links a, .skill-bubble, .tool-card span {
             font-family: 'DM Sans', sans-serif;
         }
@@ -24,6 +24,7 @@
     <div class="grid-background"></div>
     <div class="bg-blur-glow glow-1"></div>
     <div class="bg-blur-glow glow-2"></div>
+    <div class="bg-gradient-overlay"></div>
 
     <nav class="navbar">
         <div class="nav-logo">
@@ -68,20 +69,20 @@
                     </div>
 
                     <div class="hero-widgets-container">
-                        <div class="floating-card card-chart-top animate-float">
+                        <div class="floating-card card-chart-top animate-float glass-effect-heavy">
                             <div class="card-header-mini">
                                 <span>Mini Dashboard</span>
                                 <span class="dot-green"></span>
                             </div>
                             <div class="mini-chart-vector">
                                 <svg viewBox="0 0 100 40" class="svg-chart">
-                                    <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2" fill="none" stroke="#A7B194" stroke-width="2"/>
-                                    <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2 L100,40 L0,40 Z" fill="rgba(167, 177, 148, 0.1)"/>
+                                    <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2" fill="none" stroke="#6C7A5C" stroke-width="2.5"/>
+                                    <path d="M0,35 Q15,20 30,28 T60,10 T90,5 T100,2 L100,40 L0,40 Z" fill="rgba(108, 122, 92, 0.15)"/>
                                 </svg>
                             </div>
                         </div>
 
-                        <div class="floating-card card-stats-bottom animate-float-delayed">
+                        <div class="floating-card card-stats-bottom animate-float-delayed glass-effect-heavy">
                             <div class="card-header-mini">
                                 <span>Metrik Belajar Sem. 2</span>
                             </div>
@@ -91,7 +92,7 @@
                             </div>
                         </div>
 
-                        <div class="floating-card card-translucent animate-float">
+                        <div class="floating-card card-translucent animate-float glass-effect-heavy">
                             <span class="num-highlight">90%</span>
                             <span class="num-label">Progres Target</span>
                         </div>
@@ -101,30 +102,30 @@
 
             <div class="wave-line-separator">
                 <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0,64L120,58.7C240,53,480,43,720,53.3C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z" fill="none" stroke="rgba(167,177,148,0.15)" stroke-width="2"/>
+                    <path d="M0,64L120,58.7C240,53,480,43,720,53.3C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z" fill="none" stroke="rgba(167,177,148,0.2)" stroke-width="2"/>
                 </svg>
             </div>
         </section>
 
-        <section id="about" class="about-section">
+        <section id="about" class="about-section tight-spacing">
             <div class="about-container">
                 
                 <div class="about-visual-scrapbook">
                     <div class="paper-tape tape-top"></div>
-                    <div class="polaroid-card">
+                    <div class="polaroid-card glass-effect">
                         <div class="polaroid-img-frame">
-                            <img src="pict/gambar2.jpeg" alt="Foto Profil Saya" class="hero-img">
+                            <img src="pict/gambar2.jpeg" alt="Foto Profil Saya">
                         </div>
                         <div class="polaroid-caption">Mulai hal baru ✨</div>
                     </div>
 
-                    <div class="sticky-note">
-                        <p>Memasuki dunia perkuliahan, beradaptasi dengan lingkungan baru, and perlahan menemukan ketertarikan mendalam pada struktur data dan visualisasi.</p>
+                    <div class="sticky-note glass-effect">
+                        <p>Memasuki dunia perkuliahan, beradaptasi dengan lingkungan baru, dan perlahan menemukan ketertarikan mendalam pada struktur data dan visualisasi.</p>
                         <div class="sticky-pin"></div>
                     </div>
                 </div>
 
-                <div class="about-notebook-paper">
+                <div class="about-notebook-paper glass-effect">
                     <div class="notebook-header">
                         <h2 class="section-title-handwritten">Tentang Saya</h2>
                         <div class="decorative-tape-green"></div>
@@ -135,15 +136,15 @@
                             Halo! Saya adalah seorang mahasiswa semester 2 yang saat ini sedang fokus mendalami pemrograman dasar dan pengolahan data demi mewujudkan cita-cita sebagai seorang Data Analyst.
                         </p>
                         <p>
-                            Perjalanan ini bermula dari rasa tertarik yang mendalam terhadap perkembangan teknologi. Selama perkuliahan, saya menemukan minat yang kuat pada logika pemrograman, pengelolaan database, serta bagaimana data mentah dapat dieksplorasi dan diolah menjadi informasi yang bernilai. Bagi saya, memecahkan masalah melalui baris kode dan struktur data jauh lebih menantang dan menarik untuk ditekuni.
+                            Perjalanan ini bermula dari rasa tertarik yang mendalam terhadap perkembangan teknologi. Selama perkuliahan, saya menemukan minat yang kuat pada logika pemrograman, pengelolaan database, serta bagaimana data mentah dapat dieksplorasi dan diolah menjadi informasi yang bernilai.
                         </p>
                         <p>
-                            Website ini berfungsi sebagai jurnal digital sekaligus ruang belajar mandiri saya. Di sini, saya mendokumentasikan setiap proses saya dan proyek-projek data sederhana yang saya bangun secara konsisten untuk terus berkembang setiap harinya.
+                            Website ini berfungsi sebagai jurnal digital sekaligus ruang belajar mandiri saya. Di sini, saya mendokumentasikan setiap proses saya dan proyek-proyek data sederhana yang saya bangun secara konsisten untuk terus berkembang setiap harinya.
                         </p>                        
                         
                         <div class="doodle-arrow">
                             <svg width="60" height="40" viewBox="0 0 60 40" fill="none">
-                                <path d="M5,5 C25,5 35,35 50,25 M50,25 L42,22 M50,25 L47,33" stroke="#A7B194" stroke-width="2" stroke-linecap="round" fill="none"/>
+                                <path d="M5,5 C25,5 35,35 50,25 M50,25 L42,22 M50,25 L47,33" stroke="#6C7A5C" stroke-width="2" stroke-linecap="round" fill="none"/>
                             </svg>
                             <span class="doodle-text">Berproses pelan-pelan.</span>
                         </div>
@@ -157,60 +158,52 @@
             </div>
         </section>
 
-        <section id="timeline" class="timeline-section">
+        <section id="timeline" class="timeline-section tight-spacing">
             <div class="timeline-intro">
                 <h2 class="section-title-center">Timeline Perjalanan Belajar</h2>
                 <p class="section-subtitle">Catatan tumbuh kembang dari awal menginjakkan kaki di dunia perkuliahan hingga saat ini.</p>
             </div>
 
-            <div class="timeline-container">
+            <div class="timeline-container tight-timeline">
                 <div class="timeline-svg-line">
                     <svg viewBox="0 0 100 800" preserveAspectRatio="none" class="timeline-path">
-                        <path d="M50,0 Q65,150 35,300 T65,600 T50,800" fill="none" stroke="#A7B194" stroke-width="3" stroke-dasharray="6 4"/>
+                        <path d="M50,0 Q65,150 35,300 T65,600 T50,800" fill="none" stroke="#6C7A5C" stroke-width="3" stroke-dasharray="6 4"/>
                     </svg>
                 </div>
 
                 <div class="timeline-item left animate-scroll-fade">
                     <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
-                    <div class="timeline-card">
+                    <div class="timeline-card glass-effect">
                         <div class="card-tag">SEMESTER 1</div>
                         <h3>Adaptasi & Mencari Minat</h3>
                         <ul class="timeline-list">
                             <li><i class="far fa-check-circle"></i> Beradaptasi dengan lingkungan baru kampus</li>
                             <li><i class="far fa-check-circle"></i> Mengenal dunia perkuliahan & sistem akademik</li>
-                            <li><i class="far fa-check-circle"></i> Berhasil mencapai indeks prestasi (IPK) yang memuaskan</li>
+                            <li><i class="far fa-check-circle"></i> Berhasil mencapai IPK yang memuaskan</li>
                             <li><i class="far fa-check-circle"></i> Belajar dasar manajemen waktu mandiri</li>
                             <li><i class="far fa-check-circle"></i> Eksplorasi minat baru di luar kelas formal</li>
                         </ul>
-                    </div>
-                    <div class="timeline-mini-widget widget-left">
-                        <div class="widget-grid-dots"></div>
-                        <span class="widget-text">Progres: 100%</span>
                     </div>
                 </div>
 
                 <div class="timeline-item right animate-scroll-fade">
                     <div class="timeline-dot"><i class="fas fa-database"></i></div>
-                    <div class="timeline-card">
+                    <div class="timeline-card glass-effect">
                         <div class="card-tag">SEMESTER 2</div>
                         <h3>Pondasi Data & Kodingan Dasar</h3>
                         <ul class="timeline-list">
                             <li><i class="far fa-check-circle"></i> Mulai mempelajari basis data (SQL Dasar)</li>
                             <li><i class="far fa-check-circle"></i> Memahami struktur informasi dan pemodelan data</li>
-                            <li><i class="far fa-check-circle"></i> Belajar logika dasar algoritma & pemrograman komputer</li>
-                            <li><i class="far fa-check-circle"></i> Mengikuti kepanitiaan acara kampus untuk teamwork</li>
+                            <li><i class="far fa-check-circle"></i> Belajar logika algoritma & pemrograman</li>
+                            <li><i class="far fa-check-circle"></i> Mengikuti kepanitiaan acara kampus</li>
                             <li><i class="far fa-check-circle"></i> Belajar menyusun mini project fungsional</li>
                         </ul>
-                    </div>
-                    <div class="timeline-mini-widget widget-right" style="right: -40px; top: 20px;">
-                        <div class="widget-grid-dots"></div>
-                        <span class="widget-text" style="color: #6b7557; font-weight: 600;">Progres: 90% 🔥</span>
                     </div>
                 </div>
 
                 <div class="timeline-item center animate-scroll-fade">
                     <div class="timeline-dot core-dot"><i class="fas fa-star"></i></div>
-                    <div class="timeline-card core-card">
+                    <div class="timeline-card core-card glass-effect-heavy tight-card-text">
                         <div class="card-tag tag-current">SAAT INI</div>
                         <h3>Fokus UAS & Projek Akhir</h3>
                         <p class="timeline-text-full">Saat ini saya sedang mengerahkan fokus penuh untuk mempersiapkan Ujian Akhir Semester (UAS) serta menyelesaikan berbagai tugas besar kelompok (Projek Akhir). Di samping akademik, saya juga aktif berkontribusi dalam divisi kepanitiaan kampus guna mematangkan skill manajemen waktu, komunikasi, dan kerja sama tim secara real.</p>
@@ -219,44 +212,10 @@
             </div>
         </section>
 
-        <section id="experiences" class="experience-section" style="margin-top: 80px;">
-            <div class="experience-intro">
-                <h2 class="section-title-center">Pengalaman Kampus</h2>
-                <p class="section-subtitle">Bukan sekadar mengejar prestasi, melainkan ruang kerja sama tim, dokumentasi momen, dan memperluas relasi.</p>
-            </div>
-
-            <div class="scrapbook-gallery" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; padding: 20px 0;">
-                <div class="scrapbook-item item-1" style="transform: rotate(-3deg); transition: transform 0.3s;">
-                    <div class="polaroid-frame">
-                        <img src="pict/gambar4.jpeg" alt="Mengikuti Organisasi" style="width: 100%; height: 200px; object-fit: cover;">
-                        <div class="polaroid-label">Divisi Kepanitiaan <p>Aktif berkontribusi menyukseskan program kerja</p></div>
-                    </div>
-                </div>
-                <div class="scrapbook-item item-2" style="transform: rotate(4deg); transition: transform 0.3s;">
-                    <div class="polaroid-frame">
-                        <img src="pict/gambar3.jpeg" alt="Mengikuti Organisasi" style="width: 100%; height: 200px; object-fit: cover;">
-                        <div class="polaroid-label">Memasuki Organisasi <p>Melaksanakan dan mengembangkan program kerja </p></div>
-                    </div>
-                </div>
-                <div class="scrapbook-item item-3" style="transform: rotate(-2deg); transition: transform 0.3s;">
-                    <div class="polaroid-frame">
-                        <img src="pict/gambar5.jpeg" alt="Teamwork & Individu" style="width: 100%; height: 200px; object-fit: cover;">
-                        <div class="polaroid-label">Teamwork & Individu <p>Melaksanakan tanggung jawab projek kelompok & mandiri</p></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="experience-note">
-                <div class="tape-piece"></div>
-                <h4>Catatan Kecil:</h4>
-                <p>Bagian terbaik dari perkuliahan adalah atmosfer pertemanan hangat, kerja sama, dan pembelajaran nyata di luar teori.</p>
-            </div>
-        </section>
-
-        <section id="projects" class="projects-section" style="margin-top: 80px;">
+        <section id="projects" class="projects-section tight-spacing">
             <div class="projects-intro">
                 <h2 class="section-title-center">Eksplorasi Projek Kecil</h2>
-                <p class="section-subtitle">Daftar projek hasil eksperimen mandiri kuliah sebagai bukti nyata penerapan logika dan pemahaman.</p>
+                <p class="section-subtitle">Daftar projek hasil eksperimen mandiri kuliah sebagai bukti nyata penerapan logika.</p>
             </div>
 
             <div class="project-tabs">
@@ -266,190 +225,80 @@
                 <span class="tab-btn" data-filter="ppb">PPB</span>
             </div>
 
-            <div class="projects-grid">
-                <div class="project-card" data-category="ui">
+            <div class="projects-grid tight-grid">
+                <div class="project-card glass-effect" data-category="ui">
                     <div class="project-preview">
                         <div class="browser-mockup"><span></span><span></span><span></span></div>
-                        <img src="pict/GAMBAR6.png" alt="Projek UI/UX Figma" style="width: 100%; height: 180px; object-fit: cover;">
+                        <img src="pict/GAMBAR6.png" alt="Projek UI/UX Figma">
                     </div>
                     <div class="project-info">
                         <h3>Hi-Fi Design System (Peervia)</h3>
-                        <p>Project menyusun visual tata letak sistem belajar mahasiswa ke mahasiswa di Figma.</p>
+                        <p>Project menyusun visual tata letak sistem belajar mahasiswa di Figma.</p>
                         <div class="project-tags">
-                            <span class="tag">UI/UX</span><span class="tag">Figma</span><span class="tag">Hi-Fi Design</span>
+                            <span class="tag">UI/UX</span><span class="tag">Figma</span><span class="tag">Hi-Fi</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card" data-category="web">
+                <div class="project-card glass-effect" data-category="web">
                     <div class="project-preview">
                         <div class="browser-mockup"><span></span><span></span><span></span></div>
-                        <img src="pict/GAMBAR7.png" alt="Projek Aplikasi Buku Tamu" style="width: 100%; height: 180px; object-fit: cover;">
+                        <img src="pict/GAMBAR7.png" alt="Projek Buku Tamu">
                     </div>
                     <div class="project-info">
                         <h3>Aplikasi Web Buku Tamu Digital</h3>
-                        <p>Membangun sistem antarmuka halaman portal Login Buku Tamu.</p>
+                        <p>Membangun antarmuka portal Login Buku Tamu Digital.</p>
                         <div class="project-tags">
-                            <span class="tag">Pemweb</span><span class="tag">HTML/CSS</span><span class="tag">Localhost</span>
+                            <span class="tag">Pemweb</span><span class="tag">HTML/CSS</span><span class="tag">Local</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card" data-category="ppb">
+                <div class="project-card glass-effect" data-category="ppb">
                     <div class="project-preview">
                         <div class="browser-mockup"><span></span><span></span><span></span></div>
-                        <img src="pict/gambar8.png" alt="Projek Value Chain Analysis" style="width: 100%; height: 180px; object-fit: cover;">
+                        <img src="pict/gambar8.png" alt="Projek Value Chain">
                     </div>
                     <div class="project-info">
                         <h3>Focus of Value Chain Analysis</h3>
-                        <p>Pemetaan struktur aktivitas utama dan pendukung untuk optimalisasi margin proses bisnis.</p>
+                        <p>Pemetaan aktivitas untuk optimalisasi proses bisnis.</p>
                         <div class="project-tags">
-                            <span class="tag">PPB</span><span class="tag">Struktur Data</span><span class="tag">Analisis Bisnis</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="web">
-                    <div class="project-preview">
-                        <div class="browser-mockup"><span></span><span></span><span></span></div>
-                        <img src="pict/gambar9.png" alt="Projek Program Kalkulator" style="width: 100%; height: 180px; object-fit: cover;">
-                    </div>
-                    <div class="project-info">
-                        <h3>Program Kalkulator Interaktif</h3>
-                        <p>Pembuatan kalkulator sederhana menggunakan skema grid tata letak tombol operasi matematika.</p>
-                        <div class="project-tags">
-                            <span class="tag">Pemweb</span><span class="tag">Logika Koding</span><span class="tag">Aritmatika</span>
+                            <span class="tag">PPB</span><span class="tag">Analisis</span><span class="tag">Bisnis</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="skills-section" style="margin-top: 100px;">
-            <div class="skills-container">
-                <div class="skills-block">
-                    <h2>Keahlian & Alat Kerja</h2>
-                    <p class="section-subtitle">Menghindari bar persentase yang kaku, digantikan dengan kumpulan bidang yang sedang saya pelajari secara bertahap.</p>
-                    
-                    <div class="skills-grid">
-                        <span class="skill-bubble">HTML / CSS Dasar</span>
-                        <span class="skill-bubble">SQL & Query Dasar</span>
-                        <span class="skill-bubble">Struktur Database</span>
-                        <span class="skill-bubble">Logika Pemrograman</span>
-                        <span class="skill-bubble">Visualisasi Data Dasar</span>
-                        <span class="skill-bubble">Kerja Sama Tim</span>
-                        <span class="skill-bubble">Problem Solving</span>
-                    </div>
-
-                    <h4 class="tools-heading">Aplikasi / Tools Harian</h4>
-                    <div class="tools-grid">
-                        <div class="tool-card"><i class="fas fa-code tool-icon icon-code"></i> <span>VS Code</span></div>
-                        <div class="tool-card"><i class="fab fa-github tool-icon"></i> <span>GitHub</span></div>
-                        <div class="tool-card"><i class="fab fa-figma tool-icon icon-figma"></i> <span>Figma</span></div>
-                        <div class="tool-card"><i class="fas fa-table tool-icon icon-sheet"></i> <span>Google Sheets</span></div>
-                        <div class="tool-card"><i class="fas fa-database tool-icon" style="color: #00758f;"></i> <span>MySQL Workbench</span></div>
-                        <div class="tool-card"><i class="fas fa-project-diagram tool-icon" style="color: #7c1a22;"></i> <span>Bizagi Modeler</span></div>
-                        <div class="tool-card"><i class="far fa-file-word tool-icon" style="color: #2b579a;"></i> <span>Google Docs</span></div>
-                        <div class="tool-card"><i class="fas fa-book-open tool-icon" style="color: #80397b;"></i> <span>OneNote</span></div>
-                    </div>
-                </div>
-
-                <div class="skills-visual-widget">
-                    <div class="dashboard-widget-wrapper">
-                        <div class="widget-top-bar">
-                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-                            <span class="widget-title-spec">Metrik Penguasaan Elemen</span>
-                        </div>
-                        <div class="widget-body-data">
-                            <div class="circle-chart-container">
-                                <div class="percentage-display">75%</div>
-                                <span class="label-under">Logika Pemrograman</span>
-                            </div>
-                            <div class="mini-bar-lines">
-                                <div class="line-item-stat">
-                                    <span class="lbl">Logika Pemrograman</span>
-                                    <div class="line-w"><div class="fill" style="width:75%"></div></div>
-                                </div>
-                                <div class="line-item-stat">
-                                    <span class="lbl">Query & Basis Data</span>
-                                    <div class="line-w"><div class="fill" style="width:70%"></div></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="goals" class="goals-section" style="margin-top: 120px;">
-            <div class="goals-intro">
-                <h2>Target Masa Depan</h2>
-                <p class="section-subtitle">Langkah realistis dan sederhana yang ingin saya capai untuk bertumbuh lebih baik ke depannya.</p>
-            </div>
-
-            <div class="goals-mindmap-container">
-                <div class="mindmap-svg-connector">
-                    <svg viewBox="0 0 800 200" preserveAspectRatio="none">
-                        <path d="M50,100 Q200,30 400,100 T750,100" fill="none" stroke="rgba(167, 177, 148, 0.4)" stroke-width="2" stroke-dasharray="5 5"/>
-                    </svg>
-                </div>
-
-                <div class="goals-grid-bubbles">
-                    <div class="goal-bubble-card">
-                        <div class="goal-icon-mini"><i class="fas fa-chart-line"></i></div>
-                        <h4>Menguasai tools visualisasi data</h4>
-                    </div>
-                    <div class="goal-bubble-card">
-                        <div class="goal-icon-mini"><i class="fab fa-python"></i></div>
-                        <h4>Mulai mempelajari analisis data menggunakan Python</h4>
-                    </div>
-                    <div class="goal-bubble-card">
-                        <div class="goal-icon-mini"><i class="fas fa-folder-open"></i></div>
-                        <h4>Membangun portfolio projek yang lebih rapi</h4>
-                    </div>
-                    <div class="goal-bubble-card core-g">
-                        <div class="goal-icon-mini"><i class="fas fa-bullseye"></i></div>
-                        <h4>Menjadi seorang Data Analyst yang andal</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="gallery" class="gallery-section" style="margin-top: 100px; padding-bottom: 60px;">
+        <section id="gallery" class="gallery-section tight-spacing">
             <div class="gallery-intro">
                 <h2>Galeri Memori & Suasana</h2>
-                <p class="section-subtitle">Kumpulan cuplikan momen keseharian kuliah yang penuh cerita estetik.</p>
+                <p class="section-subtitle">Cuplikan momen keseharian kuliah yang penuh cerita.</p>
             </div>
 
-            <div class="scrapbook-masonry">
-                <div class="gallery-polaroid rot-left">
+            <div class="scrapbook-masonry tight-masonry">
+                <div class="gallery-polaroid rot-left glass-effect">
                     <img src="pict/gambar10.jpeg" alt="Suasana Belajar" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=350'">
                     <div class="polaroid-txt">Danusan di Filkom</div>
                 </div>
-                <div class="gallery-polaroid rot-right">
-                    <img src="pict/gambar11.jpeg" alt="Catatan Buku" onerror="this.src='https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=350'">
+                <div class="gallery-polaroid rot-right glass-effect">
+                    <img src="pict/gambar11.jpeg" alt="Ngonser" onerror="this.src='https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=350'">
                     <div class="polaroid-txt">Ngonser di Filkom</div>
                 </div>
-                <div class="gallery-polaroid rot-left-heavy">
+                <div class="gallery-polaroid rot-left-heavy glass-effect">
                     <img src="pict/gambar12.jpeg" alt="Laptop Kerja" onerror="this.src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=350'">
-                    <div class="polaroid-txt">Nugas di Filkom💻</div>
-                </div>
-                <div class="gallery-polaroid rot-right-light">
-                    <img src="pict/gambar13.jpeg" alt="Suasana Cafe" onerror="this.src='https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=350'">
-                    <div class="polaroid-txt">Bermain bersama teman Filkom</div>
+                    <div class="polaroid-txt">Nugas💻</div>
                 </div>
             </div>
-            
             <div style="clear: both;"></div>
         </section>
 
-        <footer class="main-footer">
+        <footer class="main-footer tight-footer">
             <div class="footer-content-wrapper">
                 <p class="footer-thanks">Terima kasih telah berkunjung ke jurnal belajarku.</p>
                 <div class="footer-socials">
                     <a href="https://github.com/GladiesGeraldine" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="mailto:gladiesgeraldin@student.ub.ac.id"><i class="far fa-envelope"></i></a>
-                    <a href="https://linkedin.com/in/gladies-napitupulu-6317b6372" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <p class="footer-copyright">&copy; 2026 Perjalanan Belajar Pribadi. Dibuat dengan sepenuh hati.</p>
             </div>
