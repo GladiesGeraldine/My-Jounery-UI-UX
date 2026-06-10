@@ -1,14 +1,14 @@
-# 📓 Learning Data, One Step at a Time — Jurnal Belajar Pribadi
+# Learning Data, One Step at a Time — Jurnal Belajar Pribadi
 
 Website ini adalah proyek portofolio interaktif dan jurnal digital personal yang mendokumentasikan perjalanan belajar saya sebagai mahasiswi Sistem Informasi (FILKOM UB) menuju impian menjadi seorang *Data Analyst*. Proyek ini dibangun dengan pendekatan estetika *scrapbook* digital untuk memenuhi Tugas Individu mata kuliah Desain Antarmuka Pengguna.
 
-## 🔗 Tautan Penting
+## Tautan Penting
 * **Live Website:** [Kunjungi Website Saya](https://gladiesgeraldine.github.io/My-Jounery-UI-UX/)
 * **Repository:** [GitHub Repository](https://github.com/GladiesGeraldine/My-Jounery-UI-UX)
 
 ---
 
-## ✨ Fitur Utama Website
+## Fitur Utama Website
 
 Website ini tidak hanya mengandalkan visual yang menarik, tetapi juga dilengkapi dengan fungsionalitas interaktif:
 
@@ -26,25 +26,25 @@ Tampilan website telah dioptimalkan secara penuh menggunakan CSS Grid, Flexbox, 
 
 ---
 
-## 🎨 Prinsip Desain UI/UX
+## Prinsip Desain UI/UX
 
 Website ini dirancang secara matang dengan menerapkan prinsip-prinsip utama antarmuka pengguna:
 
-### 🎯 Target Pengguna (Target Audience)
+### Target Pengguna (Target Audience)
 * Dosen mata kuliah Desain Antarmuka Pengguna.
 * Rekruter atau praktisi industri di bidang *Data Science / Analytics*.
 * Rekan sesama mahasiswa untuk berbagi inspirasi.
 
-### 🎨 Konsistensi Desain (Consistency)
+### Konsistensi Desain (Consistency)
 * **Palet Warna:** Menggunakan tema alam/sage yang menenangkan (Sage Green `#A7B194`, Off-White `#FBFBF9`, dan Dark Slate `#2D3129`) untuk memperkuat kesan jurnal/scrapbook digital yang estetik namun tetap profesional.
 * **Tipografi:** Kombinasi font *Playfair Display* (Serif) untuk memberikan hierarki visual yang kuat pada judul/heading, serta *DM Sans* (Sans-Serif) untuk kejelasan keterbacaan pada teks paragraf body.
 
-### 🧭 Navigasi yang Jelas (Navigation)
+### Navigasi yang Jelas (Navigation)
 * Komponen *Fixed Navbar* di bagian atas dilengkapi dengan efek *backdrop blur* transparan, memudahkan pengguna berpindah antar-bagian halaman secara instan kapan saja.
 
 ---
 
-## 🛠️ Teknologi & Alat Kerja yang Digunakan
+## Teknologi & Alat Kerja yang Digunakan
 
 ### Elemen Frontend & Hosting
 * **HTML5:** Struktur semantik dokumen website.
